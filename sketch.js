@@ -4,6 +4,7 @@ createCanvas(1500,650);
 }
 
 function draw() {
+  noCursor();
 background(255);
 var colore1, colore2, colore3;
 if (mouseX <= 750) {
